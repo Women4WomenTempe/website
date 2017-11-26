@@ -107,33 +107,41 @@ h3 {
       <a href = "." title = "W4W Tempe Home Page">Home</a>
     </li>
     <li>
-      <a href = "partners.html" title = "W4W Tempe Special partners">Partners</a>
+      <a href = "partners" title = "W4W Tempe Special partners">Partners</a>
     </li>
     <li>
-      <a href = "donate.html" title = "W4W Tempe Donate">Donate</a>
+      <a href = "donate" title = "W4W Tempe Donate">Donate</a>
     </li>
     <li>
-      <a href = "contact.html" title = "W4W Tempe Contact Information">Contact Us</a>
+      <a href = "contact" title = "W4W Tempe Contact Information">Contact Us</a>
     </li>
   </ul>
   <div class = "body">
-    <h1>Contact Us</h1>
+    <h1>Donate</h1>
     <info>
-      <p class = "p1">Community Christian Church: 1701 S. College Ave.</p>
-      <p class = "p2">Email: women4womentempe@gmail.com</p>
-      <p class = "p2">Facebook: click <a target = "_blank" href = "https://www.facebook.com/W4WTempe/?ref=py_c">here</a></p>
+      <p class = "p1">Partnerships and individual donations (monetary or items purchased) are needed
+      to keep this project going. To donate through Paypal click here -> <a target = "_blank" href = "https://www.paypal.com/donate/?token=rdxaZ_NDsg1GbEJwxV7UTBprjfpFEXEIJPdJkyg-K20fc5xBwgQoy1lvQX13qBo9crGXK0&country.x=US&locale.x=US">
+        <img class = "link" src = "/home/mario/Documents/Women 4 Women/w4wlogo.png"></a>. To donate through check, please make it out to Guardian Angels (memo: W4W). We also welcome volunteers to assemble the bags.</p>
+      <h2 class = "p1">Women4Women Donation Wish List:</h2>
+      <div class = "column">
+        <p class = "p2">Tampons</p>
+        <p class = "p2">Sanitary napkins</p>
+        <p class = "p2">Panty liners</p>
+        <p class = "p2">Feminine wipes</p>
+        <p class = "p2">2 oz. size hand sanitizer</p>
+      </div>
     </info>
   </div>
   <div class = "dir">
     <div class = "homelinks">
       <p>Pages</p>
       <a href = ".">W4W Tempe Home<br></a>
-      <a href = "partners.html">Partners<br></a>
+      <a href = "partners">Partners<br></a>
     </div>
     <div class = "contactlinks">
       <p>Getting Involved</p>
-      <a href = "contact.html">Contact Us<br></a>
-      <a href = "donate.html">Donate<br></a>
+      <a href = "contact">Contact Us<br></a>
+      <a href = "donate">Donate<br></a>
     </div>
   </div>
 </html>
