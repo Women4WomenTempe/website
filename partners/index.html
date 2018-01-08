@@ -75,23 +75,30 @@ h3 {
 .column img {
   height: 400px;
 }
-.dir {
+.bottom {
   background: #02025e;
   display: flex;
 }
-.dir div {
+.bottom .links {
   padding-left: 10%;
-  padding-top: 5%;
+  padding-top: 2%;
   padding-bottom: 2%;
   flex: 1;
 }
-.dir a {
+.bottom .links a {
   color: #cccccc;
   font-size: 60%;
   text-decoration: none;
+  padding: 1%;
 }
-.dir p {
+.bottom .links p {
   color: #cccccc;
+}
+.bottom .contacts {
+  padding: 2%;
+}
+.bottom .contacts img {
+  height: 40px;
 }
 </style>
 <html>
@@ -141,16 +148,17 @@ h3 {
       </div>
     </info>
   </div>
-  <div class = "dir">
-    <div class = "homelinks">
-      <p>Pages</p>
-      <a href = "..">W4W Tempe Home<br></a>
-      <a href = "../partners">Partners<br></a>
+  <div class = "bottom">
+    <div class = "contacts">
+      <a target = "_blank" href = "https://www.facebook.com/W4WTempe/?ref=py_c">
+        <img src = "../assets/fb.png"></a>
     </div>
-    <div class = "contactlinks">
-      <p>Getting Involved</p>
-      <a href = "../contact">Contact Us<br></a>
-      <a href = "../donate">Donate<br></a>
+    <div class = "links">
+      <a href = "..">W4W Tempe Home</a>
+      <a href = "../partners">Partners</a>
+      <a href = "../donate">Donate</a>
+      <a href = "../news">News</a>
+      <a href = "../contact">Contact Us</a>
     </div>
   </div>
 </html>
