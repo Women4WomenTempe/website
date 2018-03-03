@@ -10,9 +10,6 @@
 p {
   text-indent: 5%;
 }
-.flex {
-  display: flex;
-}
 .navbar {
   background: #02025e;
   position: fixed;
@@ -65,6 +62,7 @@ h1 {
 }
 .logo {
   float: right;
+  height: 300px;
 }
 h3 {
   font-size: 150%;
@@ -78,8 +76,16 @@ h3 {
   margin-top: 3%;
   -webkit-column-count: 2;
 }
-.column img {
-  height: 400px;
+.row {
+  margin-top: 3%;
+  display: flex;
+}
+.row img, .column img {
+  padding: 1%;
+}
+.psa {
+  float: left;
+  padding: 1%;
 }
 .bottom {
   background: #02025e;
@@ -113,7 +119,7 @@ h3 {
   <ul class = "navbar">
     <li>
       <a href = ".">
-        <img src = "assets/w4w.png" class = "logo" title = "Women 4 Women Tempe">
+        <img src = "assets/w4w.png" title = "Women 4 Women Tempe">
       </a>
     </li>
     <li>
@@ -136,13 +142,13 @@ h3 {
     <h1>Women4Women Tempe</h1>
     <info>
       <p class = "p1"><img class = "logo" src = "assets/w4wlogo.png" height = "400px">The number of homeless and low-income women increases each year in our community. Many require the use of feminine hygiene products each month,
-      the cost of which is not covered by SNAP (food stamps) and too expensive for many women to afford. Women4Women Tempe believes these necessary items should be
-      available to those women who need them. Our mission is to help homeless and low-income women in Tempe maintain their dignity, self-respect and health by distributing
+      the cost of which is not covered by SNAP (food stamps) and too expensive for many women to afford. Women4Women Tempe believes these items should be
+      available to those <iframe class = "psa" width="560" height="315" src="https://www.youtube.com/embed/t_Oby4Ulm9U?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>women who need them. Our mission is to help homeless and low-income women in Tempe maintain their dignity, self-respect and health by distributing
       feminine hygiene products to those in need.</p>
-      <div class = "column">
-        <img src = "assets/wipes.jpg">
-        <img src = "assets/pads.jpg">
-        <img src = "assets/pic1.jpg">
+      <div class = "row">
+        <img src = "assets/wipes.jpg" height = 450px>
+        <img src = "assets/pads.jpg" height = 450px>
+        <img src = "assets/pic1.jpg" height = 450px>
       </div>
     </info>
   </div>
